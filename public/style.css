@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#dataDisplay, #chat, #sseUpdates {
+    margin-top: 20px;
+}
+
+#dataList, #messagesList, #sseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#dataList li, #messagesList li, #sseList li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <button id="loadUsers">Загрузить пользователей</button>
+        <button id="loadPosts">Загрузить посты</button>
+    </div>
+
+    <div id="dataDisplay">
+        <h2>Данные:</h2>
+        <ul id="dataList"></ul>
+    </div>
+
+    <div id="chat">
+        <h2>Чат в реальном времени</h2>
+        <input type="text" id="messageInput" placeholder="Введите сообщение">
+        <button id="sendMessage">Отправить сообщение</button>
+        <ul id="messagesList"></ul>
+    </div>
+
+    <div id="sseUpdates">
+        <h2>Обновления с сервера</h2>
+        <ul id="sseList"></ul>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./server.js"></script>
+</body>
+</html>
